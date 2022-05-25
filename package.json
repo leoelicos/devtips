@@ -1,0 +1,29 @@
+{
+  "name": "bcs-11-diagnostic-routes",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "Node.js, Express.js, uuid",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoelicos/bcs-11-diagnostic-routes.git"
+  },
+  "keywords": [
+    "express.js",
+    "node.js",
+    "uuid"
+  ],
+  "author": "Leo Wong",
+  "bugs": {
+    "url": "https://github.com/leoelicos/bcs-11-diagnostic-routes/issues"
+  },
+  "homepage": "https://github.com/leoelicos/bcs-11-diagnostic-routes#readme"
+}
