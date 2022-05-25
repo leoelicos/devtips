@@ -22,9 +22,11 @@ I made this app to learn about `Express` including `helpers`, `middleware`, the 
 
 ## Usage
 
-| Steps         | Details     |
-| ------------- | ----------- |
-| Start the app | `npm start` |
+| Steps                   | Details                                             |
+| ----------------------- | --------------------------------------------------- |
+| Start the app           | `npm start`                                         |
+| Test the wildcard route | Go to a route that doesn't exist, like `/test`      |
+| Access the diagnostics  | Go to `/api/diagnostics` in `Insomnia` or a browser |
 
 ## Video Demo
 
