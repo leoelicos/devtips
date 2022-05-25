@@ -27,6 +27,7 @@ I made this app to learn about `Express` including `helpers`, `middleware`, the 
 | Start the app           | `npm start`                                         |
 | Test the wildcard route | Go to a route that doesn't exist, like `/test`      |
 | Access the diagnostics  | Go to `/api/diagnostics` in `Insomnia` or a browser |
+| Access the feedback     | Go to `/api/feedback` in `Insomnia` or a browser    |
 
 ## Video Demo
 
