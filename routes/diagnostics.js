@@ -12,7 +12,6 @@ diagnostics.get('/', async (req, res) => {
 // POST Route for a error logging
 diagnostics.post('/', (req, res) => {
 	// TODO: Logic for appending data to the db/diagnostics.json file
-	console.log(req.body);
 
 	const { isValid, errors } = req.body;
 
