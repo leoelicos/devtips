@@ -22,12 +22,30 @@ I made this app to learn about `Express` including `helpers`, `middleware`, the 
 
 ## Usage
 
-| Steps                   | Details                                             |
-| ----------------------- | --------------------------------------------------- |
-| Start the app           | `npm start`                                         |
-| Test the wildcard route | Go to a route that doesn't exist, like `/test`      |
-| Access the diagnostics  | Go to `/api/diagnostics` in `Insomnia` or a browser |
-| Access the feedback     | Go to `/api/feedback` in `Insomnia` or a browser    |
+### Insomnia
+
+| Steps                                                  | Details                                                                                 |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| Start the server from command line                     | `npm start`                                                                             |
+| Go to the root                                         | GET `localhost:3001`                                                                    |
+| Try to add a Tip but with an error                     | Tip: "Use kebab-case for CSS!" User: "Leo"                                              |
+| Note the alert that it is invalid                      | `Invalid username! Min. 4 characters`                                                   |
+| …or another kind of error                              | `Tip must be at least 15 characters`                                                    |
+| Click OK                                               |                                                                                         |
+| See these diagnostic logs in Insomnia                  | GET `localhost:3001/api/diagnostics` in `Insomnia` or a browser                         |
+| Test the wildcard route with a page that doesn't exist | GET `https://leoelicos-diagnostic-routes.herokuapp.com/test` in `Insomnia` or a browser |
+
+### Heroku Deployment
+
+| Steps                                                  | Details                                                           |
+| ------------------------------------------------------ | ----------------------------------------------------------------- |
+| Go to the root                                         | https://leoelicos-diagnostic-routes.herokuapp.com/                |
+| Try to add a Tip but with an error                     | Tip: "Use kebab-case for CSS!" User: "Leo"                        |
+| Note the alert that it is invalid                      | `Invalid username! Min. 4 characters`                             |
+| …or another kind of error                              | `Tip must be at least 15 characters`                              |
+| Click OK                                               |                                                                   |
+| See these diagnostic logs                              | https://leoelicos-diagnostic-routes.herokuapp.com/api/diagnostics |
+| Test the wildcard route - something that doesn't exist | https://leoelicos-diagnostic-routes.herokuapp.com/test            |
 
 ## Video Demo
 
