@@ -8,7 +8,7 @@ Node.js, Express.js, uuid
 
 Diagnostic Routes builds on top of an application that allows users to give tips or suggestions, as well as leave feedback. The extension is that it has a wildcard route for serving up a 404 page, as well as a diagnostics route for logging usage statistics like failed form validation.
 
-The app uses `express.js` to coordinate the routes, and `uuid` to generate unique user ids. The app is deployed on Heroku.
+The app uses `express.js` to coordinate the routes, and `uuid` to generate unique error ids. The app is deployed on Heroku.
 
 I made this app to learn about `Express` including `helpers`, `middleware`, the `public` folder, `routes`, and `server.js`.
 
