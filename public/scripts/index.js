@@ -36,8 +36,8 @@ const getTips = () =>
 	fetch('/api/tips', {
 		method: 'GET',
 		headers: {
-			'Content-Type': 'application/json',
-		},
+			'Content-Type': 'application/json'
+		}
 	})
 		.then((response) => response.json())
 		.then((data) => data)
@@ -50,9 +50,9 @@ const postTip = (tip) =>
 	fetch('/api/tips', {
 		method: 'POST',
 		headers: {
-			'Content-Type': 'application/json',
+			'Content-Type': 'application/json'
 		},
-		body: JSON.stringify(tip),
+		body: JSON.stringify(tip)
 	})
 		.then((response) => response.json())
 		.then((data) => {
@@ -75,13 +75,13 @@ const validateTip = (newTip) => {
 	const errorState = {
 		username: '',
 		tip: '',
-		topic: '',
+		topic: ''
 	};
 
 	// Bool value if the username is valid
 	const utest = username.length >= 4;
 	if (!utest) {
-		errorState.username = 'Invalid username!';
+		errorState.username = 'Invalid username! Min. 4 characters';
 	}
 
 	// Bool value to see if the tip being added is at least 15 characters long
@@ -98,7 +98,7 @@ const validateTip = (newTip) => {
 
 	const result = {
 		isValid: !!(utest && tipContentCheck && topicCheck),
-		errors: errorState,
+		errors: errorState
 	};
 
 	// Return result object with a isValid boolean and an errors object for any errors that may exist
@@ -120,9 +120,9 @@ const submitDiagnostics = (submissionObj) => {
 	fetch('/api/diagnostics', {
 		method: 'POST',
 		headers: {
-			'Content-Type': 'application/json',
+			'Content-Type': 'application/json'
 		},
-		body: JSON.stringify(submissionObj),
+		body: JSON.stringify(submissionObj)
 	})
 		.then((response) => response.json())
 		.then(() => showErrors(submissionObj.errors))
@@ -146,7 +146,7 @@ const handleFormSubmit = (e) => {
 	const newTip = {
 		username: tipUsername,
 		topic: 'UX',
-		tip: tipContent,
+		tip: tipContent
 	};
 
 	// Run the tip object through our validator function
