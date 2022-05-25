@@ -49,6 +49,8 @@ I made this app to learn about `Express` including `helpers`, `middleware`, the 
 
 ## Video Demo
 
+https://user-images.githubusercontent.com/99461390/170290283-a197c255-1c7b-4c4a-95f6-b4dba9ef8e82.mp4
+
 ---
 
 ## Screenshots
