@@ -14,11 +14,11 @@ I made this app to learn about `Express` including `helpers`, `middleware`, the 
 
 ## Installation
 
-| Steps                | Details                                                                      |
-| -------------------- | ---------------------------------------------------------------------------- |
-| Install Node.js      | Download it at https://nodejs.org/en/                                        |
-| Clone this repo      | ` git clone https://github.com/leoelicos/bcs-10-command-line-word-guess.git` |
-| Install dependencies | ` npm install`                                                               |
+| Steps                | Details                                                                |
+| -------------------- | ---------------------------------------------------------------------- |
+| Install Node.js      | Download it at https://nodejs.org/en/                                  |
+| Clone this repo      | ` git clone https://github.com/leoelicos/bcs-11-diagnostic-routes.git` |
+| Install dependencies | ` npm install`                                                         |
 
 ## Usage
 
@@ -56,13 +56,15 @@ https://user-images.githubusercontent.com/99461390/170290283-a197c255-1c7b-4c4a-
 ## Screenshots
 
 ### Screenshot: Insomnia diagnostics
+
 ![Insomnia diagnostics](https://user-images.githubusercontent.com/99461390/170288512-d3969299-7829-400f-944e-787e7caf5cce.jpg)
 
 ### Screenshot: Heroku testing - bad username
-![Heroku testing - bad username](https://user-images.githubusercontent.com/99461390/170288533-c910593c-26b5-41a6-8b28-eb937c316cf0.jpg)
-![Heroku testing - alert](https://user-images.githubusercontent.com/99461390/170288546-8ec84157-dd59-4eab-9935-8edceab217d9.jpg)
+
+![Heroku testing - bad username](https://user-images.githubusercontent.com/99461390/170288533-c910593c-26b5-41a6-8b28-eb937c316cf0.jpg) ![Heroku testing - alert](https://user-images.githubusercontent.com/99461390/170288546-8ec84157-dd59-4eab-9935-8edceab217d9.jpg)
 
 ### Screenshot: Heroku diagnostics
+
 ![Heroku diagnostics](https://user-images.githubusercontent.com/99461390/170288554-ef91fc1e-2090-4759-9c14-f7b64a02fd65.jpg)
 
 ## Credits
