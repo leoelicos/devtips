@@ -1,5 +1,5 @@
 {
-  "name": "bcs-11-diagnostic-routes",
+  "name": "devtips",
   "version": "1.0.0",
   "main": "server.js",
   "license": "MIT",
@@ -14,7 +14,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leoelicos/bcs-11-diagnostic-routes.git"
+    "url": "git+https://github.com/leoelicos/devtips.git"
   },
   "keywords": [
     "express.js",
@@ -23,7 +23,7 @@
   ],
   "author": "Leo Wong",
   "bugs": {
-    "url": "https://github.com/leoelicos/bcs-11-diagnostic-routes/issues"
+    "url": "https://github.com/leoelicos/devtips/issues"
   },
-  "homepage": "https://github.com/leoelicos/bcs-11-diagnostic-routes#readme"
+  "homepage": "https://github.com/leoelicos/devtips#readme"
 }
